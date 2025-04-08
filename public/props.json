@@ -1,0 +1,23 @@
+{
+    "scenes": [
+      {
+        "type": "image-with-text",
+        "backgroundImage": "https://cdn2.suno.ai/image_large_d72ebc82-b877-43db-a439-a1ed5acdb6c0.jpeg",
+        "text": "Waiting for intro",
+        "duration": 4.3
+      },
+      {
+        "type": "image-with-text",
+        "backgroundImage": "https://cdn2.suno.ai/image_large_c162bfa2-d05a-4620-b80c-e6d465429734.jpeg",
+        "text": "I had a pet lizard named George.",
+        "duration": 3.8
+      },
+      {
+        "type": "image-with-rolling-text",
+        "backgroundImage": "https://cdn2.suno.ai/75d50be3-6f79-4db8-b2a9-2856a15bd305_520f1eba.jpeg",
+        "text": "He was cool, but he made me really bored.",
+        "duration": 4.2
+      }
+    ]
+  }
+  
