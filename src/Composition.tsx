@@ -1,6 +1,7 @@
 import { AbsoluteFill, Sequence, staticFile } from 'remotion';
 import { SceneImageWithText } from './SceneImageWithText';
 import { SceneImageWithRollingText } from './SceneImageWithRollingText';
+import { SceneImageWithAura } from './SceneImageWithAura';
 import { Audio } from 'remotion';
 
 
@@ -20,6 +21,8 @@ export const SceneRenderer: React.FC<{ scenes: any[] }> = ({ scenes }) => {
               return SceneImageWithText;
             case 'image-with-rolling-text':
               return SceneImageWithRollingText;
+            case 'image-with-aura':
+              return SceneImageWithAura;
             default:
               console.warn(`Unknown scene type: ${scene.type}, defaulting to image-with-text`);
               return SceneImageWithText;
