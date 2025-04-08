@@ -1,7 +1,7 @@
 {
     "scenes": [
       {
-        "type": "image-with-text",
+        "type": "image-with-aura",
         "backgroundImage": "https://cdn2.suno.ai/image_large_d72ebc82-b877-43db-a439-a1ed5acdb6c0.jpeg",
         "text": "Waiting for intro",
         "duration": 4.3
